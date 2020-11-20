@@ -22,7 +22,7 @@ The `osu! directory | OSU_DIR` must be **an absolute path for this to work**, I 
 ```
 OPTIONS
 	 -b (beatmaps)    will move every file that is a beatmap file (osz)
-	 -s (skins)       will move every file is a skin file (osk)
+	 -s (skins)       will uncompress every file that is a skin file and then move it (osk)
 	 -a (all)         move every single osu!-related file into their respective directories
 
 CONFIGURATION
