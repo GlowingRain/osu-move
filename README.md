@@ -31,4 +31,6 @@ CONFIGURATION
 
 If something happens, please check that the script has sufficient permissions, with `chmod +rwx` it should be good.
 
+**Now all you need to do to fullfill your wishes is to do F5 and CTRL+ALT+SHIFT+S**
+
 ~~I made this as an excuse to learn shell scripting, cool tbh.~~
