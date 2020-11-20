@@ -4,7 +4,8 @@
 
 ### CONSTANTS
 
-# This is the directory where you usually download your osu! stuff
+# Insert your absolute path to your osu! directory.
+# NOTE: HAS TO BE AN ABSOLUTE PATH, NO STRINGS! e.g. /my\ osu\!\ wine\ prefix/drive_c/Program\ Files/osu\!/
 OSU_DIR=/path/to/osu/dir
 
 ### FUNCTIONS
@@ -31,8 +32,6 @@ showHelp() {
 # Move beatmaps
 # Globals:
 #   OSU_DIR
-# Arguments:
-#   file
 # Output:
 #   Moves beatmaps to the songs dir
 ##################################
@@ -49,8 +48,6 @@ moveBeatmaps() {
 # Move skins
 # Globals:
 #   OSU_DIR
-# Arguments:
-#   file
 # Output:
 #   Moves skins to the skins dir
 ##################################
@@ -68,8 +65,6 @@ moveSkins() {
 # Move every file to their dirs
 # Globals:
 #   OSU_DIR
-# Arguments:
-#   files (*)
 # Output:
 #   Moves every file to their dirs
 ##################################
