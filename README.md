@@ -26,6 +26,6 @@ OPTIONS
 CONFIGURATION
 	 -d [OSU_DIR]     set or change the osu! directory
 ```
-If something happens, please check that the script has sufficient permissions, with `chmod +rx` it should be good.
+If something happens, please check that the script has sufficient permissions, with `chmod +rwx` it should be good.
 
 ~~I made this as an excuse to learn shell scripting, cool tbh.~~
