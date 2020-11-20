@@ -1,7 +1,7 @@
 # osu-move
 **_Move osu! beatmaps & skins to your osu! wine prefix with ease._**
 
-If you find yourself tired of drag and dropping files like songs and skins to your osu! wine prefix, then this simple af script I wrote is for you, whether you were lazy to make one on your own or have absolutely/close to no idea how to write shell script, you can use this freely to completely obliberate the fact of drag-dropping the files.
+If you find yourself tired of drag and dropping files like songs and skins to your osu! wine prefix, then this simple af script I wrote is for you, whether you were lazy to make one on your own or have absolutely/close to no idea how to write a shell script, you can use this freely to completely obliberate the fact of drag-dropping the files.
 
 * The only dependency you need is [unarchiver](https://www.archlinux.org/packages/community/x86_64/unarchiver/) or **unar** for short. Otherwise, **it will not work for skins importing!**
 
