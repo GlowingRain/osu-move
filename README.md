@@ -17,6 +17,8 @@ If this does not work after re-logging, then add an alias to your `.bashrc` or w
 
 _...or just use the script where you downloaded it to._
 
+The `osu! directory | OSU_DIR` must be **an absolute path for this to work**, I have no idea why it didn't work with strings, unar was unable to find the directory in the first place.
+
 ```
 OPTIONS
 	 -b (beatmaps)    will move every file that is a beatmap file (osz)
@@ -26,6 +28,7 @@ OPTIONS
 CONFIGURATION
 	 -d [OSU_DIR]     set or change the osu! directory
 ```
+
 If something happens, please check that the script has sufficient permissions, with `chmod +rwx` it should be good.
 
 ~~I made this as an excuse to learn shell scripting, cool tbh.~~
