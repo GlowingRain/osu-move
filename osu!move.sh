@@ -18,7 +18,7 @@ showHelp() {
     echo ""
     echo "OPTIONS"
     echo -e "\t \033[0;35m-b (beatmaps)\033[0m    will move every file that is a beatmap file (osz)"
-    echo -e "\t \033[0;34m-s (skins)\033[0m       will move every file is a skin file (osk/zip)"
+    echo -e "\t \033[0;34m-s (skins)\033[0m       will uncompress every file that is a skin file and then move it (osk)"
     echo -e "\t \033[0;32m-a (all)\033[0m         move every single osu!-related file into their respective directories"
     echo ""
     echo "CONFIGURATION"
